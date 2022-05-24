@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Leslie's Personal Site</title>
+	<script type="text/javascript">
+		function checkAccess() {
+		var password = document.getElementById("passwordBox");
+		var passwordText = password.value;
+				if (passwordText == "alv92$ALV") {
+			return true
+		}
+		alert("Access denied!Incorrect Password!");
+			return false
+		}
+	</script>
+</head>
+<body>
+	<table cellspacing="20px">
+		<tr>
+			<td><img src="vegah.jpg" alt="Akendoh leslie vegah"></td>
+			<td><h1>Akendoh Leslie Vegah</h1>
+	<p><em>Studying at the <strong>University of Bamenda.</strong></em></p>
+	<p>I am an Undergraduate student at the university of Bamenda Studying Accounting, but I am also enrolled in a Udemy free course where I am learning how to code and develope website. </p></td>
+		</tr>
+	</table>
+	<hr>
+	<h3>Education</h3>
+	<ul>
+		<li>Cap Certificate in Accounting obtained at GTHS Nkwen Bamenda</li>
+		<li> Obtained a An ITVEE certificate and an ATVEE certificate at GTHS Bamenda</li>
+		<li>Currently enrolled at the University of Bamenda on and Undergraduate Program in Accounting</li>
+	</ul>
+	<hr>
+	<h3>Work Experience</h3>
+	<table cellspacing="10px">
+		<thead>
+			<tr>
+				<th>Date</th>
+				<th>Work</th>
+			</tr>
+		</thead>
+		<tr>
+			<td>Date</td>
+			<td>learning Html</td>
+		</tr>
+		<tr>
+			<td>Date</td>
+			<td>Work done</td>
+		</tr>
+		<tfoot></tfoot>
+	</table>
+	<hr>
+	<h3>Skills</h3>
+	<table cellspacing="10px">
+		<tr>
+			<td>Web developement</td>
+			<td>**</td>
+			<td>Css</td>
+			<td>**</td>
+		</td>
+		</tr>
+		<tr>
+			<td>Html</td>
+			<td>***</td>
+			<td>javaScript</td>
+			<td>*</td>
+		</tr>
+
+	</table>
+	<hr>
+	<p>Password<input id="passwordBox" type="password" name="password"><br>To access hobbies please enter the passcode</p>
+	<a href="hobbies.html" onclick="checkAccess();"><h3>Hobbies</h3></a>
+	<a href="Contact Me.html">Contact Me</a>
+
+</body>
+</html>
